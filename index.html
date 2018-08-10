@@ -24,30 +24,68 @@
 
 <body>
 
-	<nav class="w3-bar w3-black">
-  <a href="#Home" class="w3-button w3-bar-item";><font size="4">Home</a>
-  <a href="#About" class="w3-button w3-bar-item">About</a>
-  <a href="#Education" class="w3-button w3-bar-item">Education</a>
-  <a href="#skills" class="w3-button w3-bar-item">Skills</a>
-  <a href="#Projects" class="w3-button w3-bar-item">Projects</a>
-  <a href="#Contact" class="w3-button w3-bar-item">Contact</a>
-  <a href="Resume.pdf" class="resume" style="float:right" download>Download my Resume</a>
-</nav>
+ <style>
+body {margin:0;}
 
-  <style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  z-index:1; 
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #000000;
+  color: white;
+}
+
+.main {
+  padding: 14px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
 .resume {
     background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 6px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
+
+.resume a{
+    float:right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-decoration: none;
+    background-color: limegreen;
+    font-family: 'Advent Pro';
+}
+
+
 </style>
+  
+<div class="navbar">
+  <a href="#Home">Home</a>
+  <a href="#About">About</a>
+  <a href="#Education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#Projects">Projects</a>
+  <a href="#Contact">Contact</a>
+  <a href="documents\Resume.pdf" class="resume" style="float:right" download>Download my Resume</a>
+</div>
+
   
  <div>
 
@@ -105,11 +143,11 @@ img {
 </style>
 
 
-	  <img class="mySlides" src="rinay.jpg" width="650" height = "525" 
+	  <img class="mySlides" src="images\rinay.jpg" width="650" height = "525" 
 	  style="width:60%">
-	  <img class="mySlides" src="innovationnation.jpg" width="650" height = "525" 
+	  <img class="mySlides" src="images\innovationnation.jpg" width="650" height = "525" 
 	  style="width:60%">
-	  <img class="mySlides" src="central-peel-students.jpg" width="650" height = "525"
+	  <img class="mySlides" src="images\central-peel-students.jpg" width="650" height = "525"
 	  style="width:60%">
 
 	</section>
@@ -132,7 +170,7 @@ img {
 	</script>          
 	<div id="firstContainer" >
  <body>
- <br><br><embed src="Resume.pdf" class="myImage">
+ <br><br><embed src="documents\Resume.pdf" class="myImage">
 </body>
 <style>
 .myImage {
@@ -149,28 +187,28 @@ img {
         </div>
         
 
-	  <br><br><h1 style = "color: maroon;"><b><mark>Check me out in the news!</mark></b></h1>
+	  <br><br><br><h1 style = "color: maroon;"><b><mark>Check me out in the news!</mark></b></h1>
             
-		<a target="_blank" href = "http://www.cbc.ca/news/canada/toronto/brampton-students-nasa-prize-international-competition-1.4052581/"><img class = "link" style = "display: inline-block; margin:auto;" width= 190px height = 180px src = "cbc.jpg" alt = "Nasa Space Ames Contest"></a>
+		<a target="_blank" href = "http://www.cbc.ca/news/canada/toronto/brampton-students-nasa-prize-international-competition-1.4052581/"><img class = "link" style = "display: inline-block; margin:auto;" width= 190px height = 180px src = "images\cbc.jpg" alt = "Nasa Space Ames Contest"></a>
        
         <a target="_blank" href = "https://www.bramptonguardian.com/news-story/7223843-nasa-contest-recognizes-peel-students-for-space-settlement-design/"><img class = "link" style = "display: inline-block; margin:auto;" src = "https://upload.wikimedia.org/wikipedia/en/c/cc/Brampton_Guardian_logo.jpg" alt = "Brampton Guardian Logo"></a>
             
         <a target="_blank" href = "http://www.peelschools.org/media/spotlightonschools/Pages/Article.aspx?art-id=1781"><img class = "link" style = "display: inline-block; margin:auto;" width= 200px height = 150px src = "http://www.ascomanufacturing.com/wp-content/uploads/2015/12/furniture_manufacturing_partner_peel_district_school_board.jpg" alt = "PDSB Logo"></a>
 
-        <a target="_blank" href = "http://bramptonist.com/these-5-brampton-students-wowed-nasa-with-their-plan-for-life-on-mars"><img class = "link" style = "display: inline-block; margin:auto;" width= 190px height = 180px src = "metro.jpg" alt = "PDSB Logo"></a><br>       
+        <a target="_blank" href = "http://bramptonist.com/these-5-brampton-students-wowed-nasa-with-their-plan-for-life-on-mars"><img class = "link" style = "display: inline-block; margin:auto;" width= 190px height = 180px src = "images\metro.jpg" alt = "PDSB Logo"></a><br>       
 
 
-        <h2 style = "color: white;">Check out some of my other documents!</h2><br>
+        <br><br><h2 style = "color: white;">Check out some of my other documents!</h2><br>
 
-<a class="button" target="_blank" href = "CSA.pdf"><span>Letter from the President of CSA</span></a>
-<a class="button" target="_blank" href = "pmletter.pdf"><span>Letter from Justin Trudeau</span></a>
-<a class="button" target="_blank" href = "minister-letter.pdf"><span>Letter from MP Navdeep Bains</span></a><br><br><br>
-<a class="button" target="_blank" href = "nasa-certificate.jpeg"><span>NASA Space Design Settlement Award</span></a>
-<a class="button" target="_blank" href = "ISDC.jpg"><span>International Space Development Contest Award</span></a><br><br><br>
-<a class="button" target="_blank" href = "ebotworkshop.jpg"><span>IEEE E-Bot Certificate</span></a>
-<a class="button" target="_blank" href = "silver.jpg"><span>AP Silver Standard Award</span></a>
-<a class="button" target="_blank" href = "IoT.jpg"><span>3rd Place IEEE IoT Hackathon</span></a><br><br><br>
-<a class="button" target="_blank" href = "USRA.pdf"><span>Undergraduate Student Research Award</span></a>
+<a class="button" target="_blank" href = "documents\CSA.pdf"><span>Letter from the President of CSA</span></a>
+<a class="button" target="_blank" href = "documents\pmletter.pdf"><span>Letter from Justin Trudeau</span></a>
+<a class="button" target="_blank" href = "documents\documents\minister-letter.pdf"><span>Letter from MP Navdeep Bains</span></a><br><br><br>
+<a class="button" target="_blank" href = "documents\nasa-certificate.jpeg"><span>NASA Space Design Settlement Award</span></a>
+<a class="button" target="_blank" href = "images\ISDC.jpg"><span>International Space Development Contest Award</span></a><br><br><br>
+<a class="button" target="_blank" href = "images\ebotworkshop.jpg"><span>IEEE E-Bot Certificate</span></a>
+<a class="button" target="_blank" href = "images\silver.jpg"><span>AP Silver Standard Award</span></a>
+<a class="button" target="_blank" href = "images\IoT.jpg"><span>3rd Place IEEE IoT Hackathon</span></a><br><br><br>
+<a class="button" target="_blank" href = "images\USRA.pdf"><span>Undergraduate Student Research Award</span></a>
 
 
 
@@ -282,10 +320,10 @@ img {
   <div class="skill-bar-percent"><font size="3">40%</div></font>
 </div>
 <!-- End Skill Bar -->
-<div class="skillbar clearfix " data-percent="70%">
-  <div class="skillbar-title" style="background: #124e8c;"><span>React.JS</span></div>
+<div class="skillbar clearfix " data-percent="50%">
+  <div class="skillbar-title" style="background: #124e8c;"><span>Node.js</span></div>
   <div class="skillbar-bar" style="background: #4288d0;"></div>
-  <div class="skill-bar-percent"><font size="3">70%</div></font>
+  <div class="skill-bar-percent"><font size="3">50%</div></font>
 </div>
 <!-- End Skill Bar -->
 
@@ -381,9 +419,7 @@ img {
 </script>
 <div style = "text-align: center;">
 <div id = "Education">
-<br><h1 style = "color: white;">Education</h1>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<br><br><h1 style = "color: white;">Education</h1>
 <style>
 * {
     box-sizing: border-box;
@@ -431,7 +467,6 @@ body {
     border: 4px solid #FF9F55;
     top: 17px;
     border-radius: 50%;
-    z-index: 1;
 }
 
 /* Place the container to the left */
@@ -451,7 +486,6 @@ body {
     position: absolute;
     top: 22px;
     width: 0;
-    z-index: 1;
     right: 30px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
@@ -465,7 +499,6 @@ body {
     position: absolute;
     top: 22px;
     width: 0;
-    z-index: 1;
     left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
@@ -526,14 +559,14 @@ body {
     <div class="content">
 
       <h3><font size="5">2017-Present</font></h3>
-      <img src="ryerson.jpg" alt="Ryerson University" width="300" height="200">
+      <img src="images\ryerson.jpg" alt="Ryerson University" width="300" height="200">
       <p><font size="4">Currently enrolled in Computer Engineering at Ryerson University</font></p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
       <h3><font size="5">2013-2017</font></h3>
-       <img src="centralpeel.jpg" alt="Central Peel" width="300" height="200">
+       <img src="images\centralpeel.jpg" alt="Central Peel" width="300" height="200">
       <p><font size="4"> I was an Advanced Placement student at Central Peel Secondary School and graduated with a 90% average.</font></p>
     </div>
   </div>
@@ -541,22 +574,22 @@ body {
 </body>
 
 <div id = "Projects">
-        <br><br><h1 style = "color: white;"> Projects </h1>
+        <br><br><br><h1 style = "color: white;"> Projects </h1>
 
   <iframe width="325" height="250" src="https://www.youtube.com/embed/balEE26dyuo?rel=0&amp;controls=0&autoplay=1&playlist=balEE26dyuo&loop=1">
 </iframe>
 
- <a href="https://github.com/RinayShah/IoT-Smart-City-Hackathon" class="textWithBlurredBg" title="GitHub link"><img src="IoTHackathon.jpg">
+ <a href="https://github.com/RinayShah/IoT-Smart-City-Hackathon" class="textWithBlurredBg" title="GitHub Link"><img src="images\IoTHackathon.jpg">
   <h2> Smart City Street Light System</h2>
 </a>
 
- <a href="https://docs.google.com/document/d/1cXlvJvAi23H9nrWYC6W0YgZPSjiPBSLDlXtZQ3tpjLo/edit?usp=sharing" class="textWithBlurredBg" title="GitHub link">
-  <img src="ship.jpg">
+ <a href="https://docs.google.com/document/d/1cXlvJvAi23H9nrWYC6W0YgZPSjiPBSLDlXtZQ3tpjLo/edit?usp=sharing" class="textWithBlurredBg" title="Google Documents Link">
+  <img src="images\ship.jpg">
   <h2>NASA Space Settlement Contest</h2>
 </a>
 
- <a href="https://github.com/RinayShah/ImitateHandWriting" class="textWithBlurredBg" title="GitHub link">
-  <img src="hackthon.jpg">
+ <a href="https://github.com/RinayShah/ImitateHandWriting" class="textWithBlurredBg" title="GitHub Link">
+  <img src="images\hackthon.jpg">
   <h2>Handwriting Software</h2>
 </a>
 
@@ -611,16 +644,26 @@ body {
            
      <div style = "text-align: left;">
     <div id = "Contact">
-        <br><h1 style = "color: white;"> Contact: </h1>
-        
-        <div id="firstContainer" >
-          
-            <i class="fa fa-phone" style="font-size:45px;float:left;" style = "text-align: left;"> </i>
-           <p  style="text-indent: 120px"><font size="5"> 647-821-3910 </p>  
+<style>
+div.a {
+    text-indent: 125px;
+}
+div.b {
+    text-indent: 75px;
+}
+div.c {
+    text-indent: 25px;
+}
+</style>
+        <br><div class="c"><h1 style = "color: white;"> Contact: </h1></div>
+      
+
+            <div class="c"><i class="fa fa-phone" style="font-size:45px;float:left;" style = "text-align: left;"> </i></div>
+                  <div class="a"> <p  style= "color: white;"><font size="5"> 647-821-3910 </font></p></div>
 
 
-            <i class="fa fa-envelope-o" style="font-size:45px;float:left;" style = "text-align: left;"></i>
-           <p style="text-indent: 80px" ><font size="5"> rinayshah@yahoo.com</p> 
+            <div class="c"><i class="fa fa-envelope-o" style="font-size:45px;float:left;" style = "text-align: left;"></i></div>
+                  <div class="b"> <p style=  "color: white;"><font size="5"> rinayshah@yahoo.com</font></p> </div>
         </div>
         
         
@@ -643,7 +686,7 @@ body {
         <style>
 
 .fa-facebook-official{
-  padding: 10px;
+  padding: 12px;
   font-size: 30px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -657,7 +700,7 @@ body {
 }
 
 .fa-linkedin {
- padding: 10px;
+ padding: 12px;
   font-size: 30px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -670,7 +713,7 @@ body {
     background-color: #0073a4;
 }
 .fa-git-square {
-   padding: 10px;
+   padding: 12px;
   font-size: 30px;
     -o-transition:.5s;
     -ms-transition:.5s;
