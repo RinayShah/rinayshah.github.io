@@ -50,10 +50,12 @@ p {
     }
 
 h5 {
-  color: grey;
+  color: white;
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
+    font-size: 40px
+
 }
 
 h4 {
@@ -170,7 +172,7 @@ h2 {
 p.a {
       font-style: oblique;
   font-size: 35px;
-color: orange;
+color: #F39C12;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
 
 }
@@ -189,7 +191,7 @@ p.c{
   color: white;
 }
 p.d{
-  font-size: 16px;
+  font-size: 19px;
   color: white;
 }
 
@@ -316,12 +318,12 @@ p.e{
     padding:20px;
     margin: 3px;
     text-decoration: none;
-    background-color: black;
+    background-color: #f4511e;
     border-radius: 10px;
 }
 
 .documentLink:hover{
-    background-color: grey;
+    background-color: black;
 }
 
 * {
@@ -425,7 +427,7 @@ body {
 @media all and (max-width: 600px) {
   /* Place the timelime to the left */
   .timeline::after {
-    left: 31px;
+    left: 27px;
   }
 
 
