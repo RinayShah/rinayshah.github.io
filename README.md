@@ -1,1 +1,1 @@
-# HEC-Ryerson.github.io
+# rinayshah.github.io
