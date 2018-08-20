@@ -37,13 +37,13 @@ p {
 
 /* h1 to h15 are used */ 
 
- s
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
   h1 {
     font-size: 20px;
   }
 }
+
 
 .contaier{
     text-align:center;
@@ -716,6 +716,7 @@ body {
     margin-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    
   }
 }
 #fh5co-header .navbar-default .brand-slogan {
