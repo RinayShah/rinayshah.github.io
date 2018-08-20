@@ -200,6 +200,12 @@ p.e{
   color: black;
 }
 
+p.f{
+  font-size: 33px;
+  color: black;
+}
+
+
 .skillbar {
   position: relative;
   display: block;
@@ -1519,6 +1525,8 @@ body {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+    background: #000000;
+
 }
 .btn.btn-primary {
   background: #ff3b30;
