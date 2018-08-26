@@ -185,6 +185,7 @@ color: gold;
 
 }
 p.c{
+  padding-right: 50px;
   font-style: normal;
   font-size: 70px;
   font-family: "Brush Script MT", "Brush Script Std", cursive; 
