@@ -54,8 +54,13 @@ h5 {
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-    font-size: 40px
+    font-size: 35px
 
+}
+.techdisplay{
+  color: white;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 17px
 }
 
 h4 {
@@ -179,9 +184,9 @@ color: #F39C12;
 
 p.b {
       font-style: oblique;
-  font-size: 45px;
+  font-size: 55px;
 color: gold;
-     font-family: "Apple Chancery", cursive;
+     font-family: American Typewriter, serif
 
 }
 p.c{
@@ -206,6 +211,12 @@ p.f{
   font-size: 33px;
   color: black;
 }
+
+p.g{
+  font-size: 20px;
+  color: black;
+}
+
 
 
 .skillbar {
@@ -331,9 +342,49 @@ p.f{
 }
 
 .documentLink:hover{
-    background-color: black;
+    background-color: #202020;
 }
 
+.my-profile-img {
+     background-image: url(rinay.jpg);
+     background-size: cover;
+     background-position: center top;
+     height: 370px;
+     width: 370px;
+     border-radius: 50%;
+     display: inline-flex;
+     margin-top: 1px;
+}
+/*iphoneX*/
+@media only screen 
+    and (device-width : 335px) 
+    and (device-height : 312px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .my-profile-img {
+          margin-left: -12.5px;
+      }
+}
+/*iphone8*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 367px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+      .my-profile-img {
+          margin-left: -12.5px;
+      }
+}
+/*Galaxy S5*/
+@media screen and (device-width: 360px) and (device-height: 340px) and (-webkit-device-pixel-ratio: 3){
+     .my-profile-img{
+          margin-left: -17px;
+     }
+}
+/*iphone 5*/
+@media screen and (device-aspect-ratio: 40/71) {
+     .my-profile-img{
+          margin-left: -17px;
+     }
+}
 * {
     box-sizing: border-box;
 }
