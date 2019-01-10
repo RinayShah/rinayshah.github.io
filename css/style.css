@@ -513,11 +513,14 @@ body {
 @media screen and (max-width: 1200px) {
   
    .image1{
-    width: 150px;
+    width: 250px;
    }
 
    .image2{
     width: 250px;
+   }
+    .image3{
+    width: 150px;
    }
 .my-profile-img {
      height: 370px;
@@ -529,13 +532,15 @@ body {
 }
 @media screen and (max-width: 1000px) {
    .image1{
-    width: 150px;
+    width: 230px;
    }
 
    .image2{
     width: 220px;
    }
-
+ .image3{
+    width: 130px;
+   }
 .my-profile-img {
      height: 350px;
      width: 350px;
@@ -544,13 +549,15 @@ body {
 }
 @media screen and (max-width: 900px) {
   .image1{
-    width: 150px;
+    width: 200px;
    }
 
    .image2{
     width: 190px;
    }
-
+ .image3{
+    width: 110px;
+   }
 .my-profile-img {
      height: 320px;
      width: 320px;
@@ -565,12 +572,15 @@ body {
    .image2{
     width: 165px;
    }
+
+    .image3{
+    width: 100px;
+   }
    .my-profile-img {
      height: 300px;
      width: 300px;
 
 }
-
 
 }
 
@@ -581,6 +591,9 @@ body {
 
    .image2{
     width: 200px;
+   }
+    .image3{
+    width: 100px;
    }
 .my-profile-img {
      height: 290px;
