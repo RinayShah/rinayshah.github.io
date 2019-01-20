@@ -50,7 +50,7 @@ p {
     }
 
 h5 {
-  color: white;
+  color: black;
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
@@ -176,6 +176,7 @@ h2 {
 
 p.a {
       font-style: oblique;
+      text-align: center;
   font-size: 35px;
 color: #F39C12;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
@@ -190,11 +191,12 @@ color: gold;
 
 }
 p.c{
-  padding-right: 50px;
+  padding-right: 30px;
   font-style: normal;
+  text-align: center;
   font-size: 70px;
   font-family: "Brush Script MT", "Brush Script Std", cursive; 
-  color: white;
+  color: gold;
 }
 
 p.d{
@@ -335,7 +337,7 @@ p.g{
 
 .documentLink{
     display: inline-block;
-    padding:20px;
+    padding:17px;
     margin: 3px;
     text-decoration: none;
     background-color: #f4511e;
@@ -404,6 +406,8 @@ body {
     left: 50%;
     margin-left: -3px;
 }
+
+
 
 /* Container around content */
 .containerz {
@@ -544,6 +548,9 @@ body {
 .my-profile-img {
      height: 350px;
      width: 350px;
+     margin: auto;
+
+
 
 }
 }
@@ -561,6 +568,10 @@ body {
 .my-profile-img {
      height: 320px;
      width: 320px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto
+
 
 }
 }
@@ -579,6 +590,10 @@ body {
    .my-profile-img {
      height: 300px;
      width: 300px;
+ display: block;
+    margin-left: auto;
+    margin-right: auto
+
 
 }
 
@@ -599,12 +614,27 @@ body {
      height: 290px;
      width: 290px;
 
+
 }
 }
 
 
 
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 2;
+}
 
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
 
 
 #fh5co-header {
@@ -1692,6 +1722,7 @@ body {
   #map {
     height: 200px;
   }
+
 }
 
 .mfp-with-zoom .mfp-container,
