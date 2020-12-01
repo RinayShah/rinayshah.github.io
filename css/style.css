@@ -10341,6 +10341,9 @@ input:checked + .slider:before {
 .dark .title-text {
   color: rgb(252, 252, 252);
 }
+.dark .firstsubheading{
+  color: white;
+}
 .dark {
   color: rgb(252, 252, 252) !important;
 }
@@ -10356,6 +10359,7 @@ input:checked + .slider:before {
 .dark .mb-4{
   color: white;
 }
+
 .dark #navi {
   top: 180px;
   position: -webkit-sticky;
