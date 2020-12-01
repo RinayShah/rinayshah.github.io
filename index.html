@@ -326,7 +326,7 @@
 						</div>
 					</div>
 					<div id="page-2" class="page two">
-						<h2 class="heading">Teams & Clubs</h2>
+						<h2 class="positionthree">Teams & Clubs</h2>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-ideas"></span>
@@ -368,7 +368,7 @@
 						</div>
 					</div>
 					<div id="skills" class="page four ftco-animate">
-						<h2 class="heading">Skills</h2>
+						<h2 class="positionthree">Skills</h2>
 						<div class="row mb-5">
 							<div class="col-lg-4 mb-4">
 								<div class="bg-white rounded-lg shadow p-4">
@@ -443,7 +443,7 @@
 						</div>
 					</div>
 					<div id="education" class="page five">
-						<h2 class="heading">Education</h2>
+						<h2 class="positionthree">Education</h2>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-ideas"></span>
@@ -589,7 +589,7 @@
 				stroke="#F96D00" /></svg></div>
 
 	<!-- back to top arrow -->
-	 <button onclick="scrollToTop()" id="scroll-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+	    <button onclick="scrollToTop()" id="scroll-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 
     <script>
         const images = ["./img/banner/1.svg", "./img/banner/2.svg", "./img/banner/3.svg", "./img/banner/4.svg", "./img/banner/5.svg", "./img/banner/6.svg", "./img/banner/7.svg", "./img/banner/8.svg"];
@@ -604,7 +604,7 @@
             }
         }, 4000);
 
-        let theme = localStorage.getItem("theme") ? localStorage.getItem("theme") : 'dark';
+        let theme = localStorage.getItem("portfolio-theme") ? localStorage.getItem("portfolio-theme") : 'dark';
         document.addEventListener('DOMContentLoaded', () => {
             if (theme == 'light') {
                 document.getElementById("body").classList.remove('dark');
@@ -618,15 +618,14 @@
             if (theme == 'light') {
                 document.getElementById("body").classList.add('dark');
                 theme = 'dark';
-                localStorage.setItem("theme", 'dark');
+                localStorage.setItem("portfolio-theme", 'dark');
             }
             else {
                 document.getElementById("body").classList.remove('dark');
                 theme = 'light';
-                localStorage.setItem("theme", 'light');
+                localStorage.setItem("portfolio-theme", 'light');
             }
         }
-
     </script>
 
     <script src="./dependencies/Typewriter/typewriter.min.js"></script>
